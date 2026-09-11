@@ -10,3 +10,6 @@ uv add pytest
 - uv add pytest
 - Ctrl-Alt-l
 - uv run -m pytest .
+- uv run -m pytest . -v
+- uv run -m pytest . -s
+- uv run -m pytest . -v -s
