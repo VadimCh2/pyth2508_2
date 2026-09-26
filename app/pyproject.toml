@@ -8,5 +8,8 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "pillow>=12.3.0",
+    "pyotp>=2.10.0",
     "pytest>=9.1.1",
+    "qrcode>=8.2",
 ]
