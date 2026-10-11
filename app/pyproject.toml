@@ -8,6 +8,7 @@ authors = [
 ]
 requires-python = ">=3.14"
 dependencies = [
+    "pika>=1.4.4",
     "pytest>=9.1.1",
     "python-dotenv>=1.2.3",
     "redis>=8.1.0",

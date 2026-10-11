@@ -1,12 +1,12 @@
 import redis
-import config_hw8
+import config
 
 r = redis.Redis(
-    host=config_hw8.REDIS_HOST,
-    port=config_hw8.REDIS_PORT,
+    host=config.REDIS_HOST,
+    port=config.REDIS_PORT,
     decode_responses=True,
-    username=config_hw8.REDIS_USERNAME,
-    password=config_hw8.REDIS_PASSWORD,
+    username=config.REDIS_USERNAME,
+    password=config.REDIS_PASSWORD,
 )
 
 # r.set('porshe gt3 rs','skorost')
