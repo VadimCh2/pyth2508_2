@@ -1,1 +1,4 @@
-from redis_hw_8 import publisher, subscriber
+from amqp_utils_hw import amqp_hw_producer
+
+
+amqp_hw_producer.main_producer()
